@@ -9,7 +9,6 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Invader Game")
 
 # load images
-# can also work this way [ RED_SPACE_SHIP = pygame.image.load(os.path.join("gadgets"/"pixel_ship_red_small.png")]
 RED_SPACE_SHIP = pygame.image.load(os.path.join("gadgets", "red enemy ship.png"))
 GREEN_SPACE_SHIP = pygame.image.load(os.path.join("gadgets", "green enemy ship.png"))
 BLUE_SPACE_SHIP = pygame.image.load(os.path.join("gadgets", "blue enemy ship.png"))
